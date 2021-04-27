@@ -224,7 +224,7 @@ body {
     top: 0;
   }
   to {
-    top: 34vh;
+    top: 100%;
   }
 }
 .scanner-view-arrow {
