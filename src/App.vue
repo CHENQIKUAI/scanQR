@@ -166,10 +166,10 @@ export default {
       this.initVideo({
         video: {
           height: 800,
-          // facingMode: {
-          // 强制后置摄像头
-          // exact: "environment",
-          // },
+          facingMode: {
+            // 强制后置摄像头
+            exact: "user",
+          },
         },
       });
     } else {
