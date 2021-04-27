@@ -166,9 +166,11 @@ export default {
       this.initVideo({
         video: {
           height: 800,
+          // facingMode: "user",
           facingMode: {
             // 强制后置摄像头
-            exact: "user",
+            // exact: "user",
+            exact: "environment",
           },
         },
       });
